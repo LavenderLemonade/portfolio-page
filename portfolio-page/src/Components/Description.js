@@ -1,11 +1,11 @@
 import React from 'react'
+import { Typography } from '@mui/material'
 
-function Description() {
+export default function Description() {
     return (
-        <div>
-            <h2> i'm a Full-Stack Developer in Cuyahoga Falls, OH!</h2>
-        </div>
+        <Typography variant='h5'>
+            i'm a Full-Stack Developer in Cuyahoga Falls, OH!
+        </Typography>
     )
 }
 
-export default Description

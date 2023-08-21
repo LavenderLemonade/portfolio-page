@@ -1,11 +1,8 @@
 import React from 'react'
+import { Typography } from '@mui/material'
 
-function Title() {
+export default function Title() {
     return (
-        <div>
-            <h1> hi i'm Sam </h1>
-        </div>
+        <Typography variant='h1' gutterBottom> hi i'm Sam </Typography>
     )
 }
-
-export default Title
