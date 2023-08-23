@@ -11,11 +11,6 @@ function App() {
     <div class="container">
       <Header />
       <Description />
-      <List
-        items={['React', 'C#', 'Node']}
-      />
-      <LinkList />
-
     </div>
   );
 }

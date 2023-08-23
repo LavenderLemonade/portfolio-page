@@ -1,5 +1,8 @@
 import React from 'react'
 import { SvgIcon, Typography } from '@mui/material'
+import ReactLogo from '../React-icon.svg'
+import Clogo from '../C-logo.svg'
+import NodeLogo from '../node-logo.svg'
 
 export default function Description() {
     return (
@@ -27,24 +30,36 @@ export default function Description() {
                     <strong> Skills. </strong>
                 </Typography>
 
-                <div>
-                    <div>
+                <div class="skills-list">
+                    <div class="skills">
                         <Typography variant='subtitle1'> React </Typography>
-                        <SvgIcon>
-                            <svg
-                                xmlns='https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg'
-                                height="1em"
-                                width="1em"
-                            ></svg>
-                        </SvgIcon>
+                        <img
+                            src={ReactLogo}
+                            style={{ height: 20, width: 20 }}
+                        />
+                    </div>
+
+                    <div class="skills">
+                        <Typography variant='subtitle1'> C# </Typography>
+                        <img
+                            src={Clogo}
+                            style={{ height: 20, width: 20 }}
+                        />
+
+                    </div>
+
+                    <div class="skills">
+                        <Typography variant='subtitle1'> Node.js </Typography>
+                        <img
+                            src={NodeLogo}
+                            style={{ height: 20, width: 20 }}
+                        />
 
                     </div>
 
                 </div>
             </div>
-
-
-        </div>
+        </div >
 
     )
 }

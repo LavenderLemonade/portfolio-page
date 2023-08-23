@@ -33,6 +33,20 @@ a:link {
 
 }
 
+.skills-list {
+    display: flex;
+    gap: 1%;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+}
+
+.skills img {
+    padding-left: 5px;
+}
+
 .menu {
     align-self: center;
 
