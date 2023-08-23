@@ -1,4 +1,55 @@
-body {
-  display: flex;
-  align-items: center;
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    height: 90%;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+
+
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header {
+    display: flex;
+
+    margin-bottom: 2%;
+}
+
+.menu {
+    align-self: center;
+
+    margin-left: 50%;
+
+    display: flex;
+    gap: 10%;
+}
+
+
+
+.Me {
+    height: 100px;
+    width: auto;
+
+    border-radius: 50%;
+
+    align-self: center;
+
+    margin-left: 20%;
 }
